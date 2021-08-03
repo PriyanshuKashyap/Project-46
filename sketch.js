@@ -210,8 +210,9 @@ function reset() {
 function serve() {
   //background(bgImage);
   background("brown");
+  gameLaunch.play();
   //push();
-  gameLaunch.stop();
+  //gameLaunch.stop();
   //gameLaunch.play(); 
   //pop();
   //background(bgImage);
